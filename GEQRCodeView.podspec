@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/lerosua/GEQRCodeView.git",:commit => "446182fbcf42d877d56beb98c0ab771c11f4c093"}
+  s.source       = { :git => "https://github.com/lerosua/GEQRCodeView.git",:tag => "0.0.1" }
 
 
   s.source_files  = "GEQRCodeView/core", "GEQRCodeView/core/**/*.{h,m}"
