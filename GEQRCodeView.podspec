@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/lerosua/GEQRCodeView.git",:tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/lerosua/GEQRCodeView.git",:tag => "0.0.2" }
 
 
   s.source_files  = "GEQRCodeView/core", "GEQRCodeView/core/**/*.{h,m}"
@@ -53,6 +53,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
+  s.resources = "GEQRCodeView/resource/*.png"
 
 
   # s.framework  = "SomeFramework"

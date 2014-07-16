@@ -1,1220 +1,568 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>3C14C3EE01AA45E7B349FFC0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GEQRCodeView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4C7497B6331B435D92B6E91D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C14C3EE01AA45E7B349FFC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A4C8F970191F470886ACD2E5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D6390F62679F41DFA017BC95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-GEQRCodeView.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-GEQRCodeView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1DD2DC354DA4F908E97D3BB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-GEQRCodeView-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E9BA4F4F1973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F611973841B006AEF7B</string>
-				<string>E9BA4F801973841B006AEF7B</string>
-				<string>E9BA4F5A1973841B006AEF7B</string>
-				<string>E9BA4F591973841B006AEF7B</string>
-				<string>D6390F62679F41DFA017BC95</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F501973841B006AEF7B</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>GEQR</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>lerosua</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>E9BA4F781973841B006AEF7B</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>E9BA4F571973841B006AEF7B</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>E9BA4F531973841B006AEF7B</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>E9BA4F4F1973841B006AEF7B</string>
-			<key>productRefGroup</key>
-			<string>E9BA4F591973841B006AEF7B</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>E9BA4F571973841B006AEF7B</string>
-				<string>E9BA4F781973841B006AEF7B</string>
-			</array>
-		</dict>
-		<key>E9BA4F531973841B006AEF7B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E9BA4F881973841B006AEF7B</string>
-				<string>E9BA4F891973841B006AEF7B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E9BA4F541973841B006AEF7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E9BA4F9819738458006AEF7B</string>
-				<string>E9BA4F721973841B006AEF7B</string>
-				<string>E9BA4F681973841B006AEF7B</string>
-				<string>E9BA4F9A19738458006AEF7B</string>
-				<string>E9BA4F9919738458006AEF7B</string>
-				<string>E9BA4F6C1973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9BA4F551973841B006AEF7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E9BA4F5E1973841B006AEF7B</string>
-				<string>E9BA4F601973841B006AEF7B</string>
-				<string>E9BA4F5C1973841B006AEF7B</string>
-				<string>4C7497B6331B435D92B6E91D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9BA4F561973841B006AEF7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E9BA4F741973841B006AEF7B</string>
-				<string>E9BA4F661973841B006AEF7B</string>
-				<string>E9BA4F6F1973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9BA4F571973841B006AEF7B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E9BA4F8A1973841B006AEF7B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A4C8F970191F470886ACD2E5</string>
-				<string>E9BA4F541973841B006AEF7B</string>
-				<string>E9BA4F551973841B006AEF7B</string>
-				<string>E9BA4F561973841B006AEF7B</string>
-				<string>E1DD2DC354DA4F908E97D3BB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GEQRCodeView</string>
-			<key>productName</key>
-			<string>GEQRCodeView</string>
-			<key>productReference</key>
-			<string>E9BA4F581973841B006AEF7B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>E9BA4F581973841B006AEF7B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GEQRCodeView.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E9BA4F591973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F581973841B006AEF7B</string>
-				<string>E9BA4F791973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F5A1973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F5B1973841B006AEF7B</string>
-				<string>E9BA4F5D1973841B006AEF7B</string>
-				<string>E9BA4F5F1973841B006AEF7B</string>
-				<string>E9BA4F7A1973841B006AEF7B</string>
-				<string>3C14C3EE01AA45E7B349FFC0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F5B1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E9BA4F5C1973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F5B1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F5D1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E9BA4F5E1973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F5D1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F5F1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>E9BA4F601973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F5F1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F611973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F9019738447006AEF7B</string>
-				<string>E9BA4F6A1973841B006AEF7B</string>
-				<string>E9BA4F6B1973841B006AEF7B</string>
-				<string>E9BA4F6D1973841B006AEF7B</string>
-				<string>E9BA4F701973841B006AEF7B</string>
-				<string>E9BA4F711973841B006AEF7B</string>
-				<string>E9BA4F731973841B006AEF7B</string>
-				<string>E9BA4F621973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GEQRCodeView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F621973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F631973841B006AEF7B</string>
-				<string>E9BA4F641973841B006AEF7B</string>
-				<string>E9BA4F671973841B006AEF7B</string>
-				<string>E9BA4F691973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F631973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GEQRCodeView-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F641973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F651973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F651973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F661973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F641973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F671973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F681973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F671973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F691973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GEQRCodeView-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F6A1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GEQRAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F6B1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GEQRAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F6C1973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F6B1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F6D1973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F6E1973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F6E1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F6F1973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F6D1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F701973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GEQRDemoViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F711973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GEQRDemoViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F721973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F711973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F731973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F741973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F731973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F751973841B006AEF7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E9BA4F871973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9BA4F761973841B006AEF7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E9BA4F7B1973841B006AEF7B</string>
-				<string>E9BA4F7D1973841B006AEF7B</string>
-				<string>E9BA4F7C1973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9BA4F771973841B006AEF7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E9BA4F851973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E9BA4F781973841B006AEF7B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E9BA4F8D1973841B006AEF7B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E9BA4F751973841B006AEF7B</string>
-				<string>E9BA4F761973841B006AEF7B</string>
-				<string>E9BA4F771973841B006AEF7B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E9BA4F7F1973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GEQRCodeViewTests</string>
-			<key>productName</key>
-			<string>GEQRCodeViewTests</string>
-			<key>productReference</key>
-			<string>E9BA4F791973841B006AEF7B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>E9BA4F791973841B006AEF7B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GEQRCodeViewTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E9BA4F7A1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E9BA4F7B1973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F7A1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F7C1973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F5B1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F7D1973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F5F1973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F7E1973841B006AEF7B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>E9BA4F501973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E9BA4F571973841B006AEF7B</string>
-			<key>remoteInfo</key>
-			<string>GEQRCodeView</string>
-		</dict>
-		<key>E9BA4F7F1973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>E9BA4F571973841B006AEF7B</string>
-			<key>targetProxy</key>
-			<string>E9BA4F7E1973841B006AEF7B</string>
-		</dict>
-		<key>E9BA4F801973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F861973841B006AEF7B</string>
-				<string>E9BA4F811973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GEQRCodeViewTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F811973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F821973841B006AEF7B</string>
-				<string>E9BA4F831973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F821973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GEQRCodeViewTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F831973841B006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F841973841B006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F841973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F851973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F831973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F861973841B006AEF7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GEQRCodeViewTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F871973841B006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F861973841B006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F881973841B006AEF7B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E9BA4F891973841B006AEF7B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E9BA4F8A1973841B006AEF7B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E9BA4F8B1973841B006AEF7B</string>
-				<string>E9BA4F8C1973841B006AEF7B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E9BA4F8B1973841B006AEF7B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D6390F62679F41DFA017BC95</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GEQRCodeView/GEQRCodeView-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GEQRCodeView/GEQRCodeView-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E9BA4F8C1973841B006AEF7B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D6390F62679F41DFA017BC95</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GEQRCodeView/GEQRCodeView-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GEQRCodeView/GEQRCodeView-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E9BA4F8D1973841B006AEF7B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E9BA4F8E1973841B006AEF7B</string>
-				<string>E9BA4F8F1973841B006AEF7B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E9BA4F8E1973841B006AEF7B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/GEQRCodeView.app/GEQRCodeView</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GEQRCodeView/GEQRCodeView-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>GEQRCodeViewTests/GEQRCodeViewTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E9BA4F8F1973841B006AEF7B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/GEQRCodeView.app/GEQRCodeView</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>GEQRCodeView/GEQRCodeView-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GEQRCodeViewTests/GEQRCodeViewTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E9BA4F9019738447006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F9119738458006AEF7B</string>
-				<string>E9BA4F9619738458006AEF7B</string>
-				<string>E9BA4F9719738458006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9119738458006AEF7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E9BA4F9219738458006AEF7B</string>
-				<string>E9BA4F9319738458006AEF7B</string>
-				<string>E9BA4F9419738458006AEF7B</string>
-				<string>E9BA4F9519738458006AEF7B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ScanningView</string>
-			<key>path</key>
-			<string>core/ScanningView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9219738458006AEF7B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>XHCaptureHelper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9319738458006AEF7B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>XHCaptureHelper.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9419738458006AEF7B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>XHScanningView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9519738458006AEF7B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>XHScanningView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9619738458006AEF7B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GEQRViewController.m</string>
-			<key>path</key>
-			<string>core/GEQRViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9719738458006AEF7B</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GEQRViewController.h</string>
-			<key>path</key>
-			<string>core/GEQRViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9BA4F9819738458006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F9319738458006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F9919738458006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F9519738458006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9BA4F9A19738458006AEF7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9BA4F9619738458006AEF7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>E9BA4F501973841B006AEF7B</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C7497B6331B435D92B6E91D /* libPods-GEQRCodeView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C14C3EE01AA45E7B349FFC0 /* libPods-GEQRCodeView.a */; };
+		E900DF6619760E340037A564 /* btn_topbar_back_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E900DF6419760E340037A564 /* btn_topbar_back_hover@2x.png */; };
+		E900DF6719760E340037A564 /* btn_topbar_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E900DF6519760E340037A564 /* btn_topbar_back_white@2x.png */; };
+		E9BA4F5C1973841B006AEF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BA4F5B1973841B006AEF7B /* Foundation.framework */; };
+		E9BA4F5E1973841B006AEF7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BA4F5D1973841B006AEF7B /* CoreGraphics.framework */; };
+		E9BA4F601973841B006AEF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BA4F5F1973841B006AEF7B /* UIKit.framework */; };
+		E9BA4F661973841B006AEF7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9BA4F641973841B006AEF7B /* InfoPlist.strings */; };
+		E9BA4F681973841B006AEF7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F671973841B006AEF7B /* main.m */; };
+		E9BA4F6C1973841B006AEF7B /* GEQRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F6B1973841B006AEF7B /* GEQRAppDelegate.m */; };
+		E9BA4F6F1973841B006AEF7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BA4F6D1973841B006AEF7B /* Main.storyboard */; };
+		E9BA4F721973841B006AEF7B /* GEQRDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F711973841B006AEF7B /* GEQRDemoViewController.m */; };
+		E9BA4F741973841B006AEF7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BA4F731973841B006AEF7B /* Images.xcassets */; };
+		E9BA4F7B1973841B006AEF7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BA4F7A1973841B006AEF7B /* XCTest.framework */; };
+		E9BA4F7C1973841B006AEF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BA4F5B1973841B006AEF7B /* Foundation.framework */; };
+		E9BA4F7D1973841B006AEF7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BA4F5F1973841B006AEF7B /* UIKit.framework */; };
+		E9BA4F851973841B006AEF7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9BA4F831973841B006AEF7B /* InfoPlist.strings */; };
+		E9BA4F871973841B006AEF7B /* GEQRCodeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F861973841B006AEF7B /* GEQRCodeViewTests.m */; };
+		E9BA4F9819738458006AEF7B /* XHCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F9319738458006AEF7B /* XHCaptureHelper.m */; };
+		E9BA4F9919738458006AEF7B /* XHScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F9519738458006AEF7B /* XHScanningView.m */; };
+		E9BA4F9A19738458006AEF7B /* GEQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F9619738458006AEF7B /* GEQRViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9BA4F7E1973841B006AEF7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9BA4F501973841B006AEF7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9BA4F571973841B006AEF7B;
+			remoteInfo = GEQRCodeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C14C3EE01AA45E7B349FFC0 /* libPods-GEQRCodeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GEQRCodeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6390F62679F41DFA017BC95 /* Pods-GEQRCodeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GEQRCodeView.xcconfig"; path = "Pods/Pods-GEQRCodeView.xcconfig"; sourceTree = "<group>"; };
+		E900DF6419760E340037A564 /* btn_topbar_back_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_topbar_back_hover@2x.png"; path = "resource/btn_topbar_back_hover@2x.png"; sourceTree = "<group>"; };
+		E900DF6519760E340037A564 /* btn_topbar_back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_topbar_back_white@2x.png"; path = "resource/btn_topbar_back_white@2x.png"; sourceTree = "<group>"; };
+		E9BA4F581973841B006AEF7B /* GEQRCodeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEQRCodeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BA4F5B1973841B006AEF7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9BA4F5D1973841B006AEF7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9BA4F5F1973841B006AEF7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9BA4F631973841B006AEF7B /* GEQRCodeView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GEQRCodeView-Info.plist"; sourceTree = "<group>"; };
+		E9BA4F651973841B006AEF7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9BA4F671973841B006AEF7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9BA4F691973841B006AEF7B /* GEQRCodeView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GEQRCodeView-Prefix.pch"; sourceTree = "<group>"; };
+		E9BA4F6A1973841B006AEF7B /* GEQRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEQRAppDelegate.h; sourceTree = "<group>"; };
+		E9BA4F6B1973841B006AEF7B /* GEQRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEQRAppDelegate.m; sourceTree = "<group>"; };
+		E9BA4F6E1973841B006AEF7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9BA4F701973841B006AEF7B /* GEQRDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEQRDemoViewController.h; sourceTree = "<group>"; };
+		E9BA4F711973841B006AEF7B /* GEQRDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEQRDemoViewController.m; sourceTree = "<group>"; };
+		E9BA4F731973841B006AEF7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9BA4F791973841B006AEF7B /* GEQRCodeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEQRCodeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BA4F7A1973841B006AEF7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9BA4F821973841B006AEF7B /* GEQRCodeViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GEQRCodeViewTests-Info.plist"; sourceTree = "<group>"; };
+		E9BA4F841973841B006AEF7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9BA4F861973841B006AEF7B /* GEQRCodeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEQRCodeViewTests.m; sourceTree = "<group>"; };
+		E9BA4F9219738458006AEF7B /* XHCaptureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCaptureHelper.h; sourceTree = "<group>"; };
+		E9BA4F9319738458006AEF7B /* XHCaptureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCaptureHelper.m; sourceTree = "<group>"; };
+		E9BA4F9419738458006AEF7B /* XHScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHScanningView.h; sourceTree = "<group>"; };
+		E9BA4F9519738458006AEF7B /* XHScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHScanningView.m; sourceTree = "<group>"; };
+		E9BA4F9619738458006AEF7B /* GEQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEQRViewController.m; path = core/GEQRViewController.m; sourceTree = "<group>"; };
+		E9BA4F9719738458006AEF7B /* GEQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEQRViewController.h; path = core/GEQRViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9BA4F551973841B006AEF7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BA4F5E1973841B006AEF7B /* CoreGraphics.framework in Frameworks */,
+				E9BA4F601973841B006AEF7B /* UIKit.framework in Frameworks */,
+				E9BA4F5C1973841B006AEF7B /* Foundation.framework in Frameworks */,
+				4C7497B6331B435D92B6E91D /* libPods-GEQRCodeView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BA4F761973841B006AEF7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BA4F7B1973841B006AEF7B /* XCTest.framework in Frameworks */,
+				E9BA4F7D1973841B006AEF7B /* UIKit.framework in Frameworks */,
+				E9BA4F7C1973841B006AEF7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E900DF6319760E260037A564 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				E900DF6419760E340037A564 /* btn_topbar_back_hover@2x.png */,
+				E900DF6519760E340037A564 /* btn_topbar_back_white@2x.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		E9BA4F4F1973841B006AEF7B = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F611973841B006AEF7B /* GEQRCodeView */,
+				E9BA4F801973841B006AEF7B /* GEQRCodeViewTests */,
+				E9BA4F5A1973841B006AEF7B /* Frameworks */,
+				E9BA4F591973841B006AEF7B /* Products */,
+				D6390F62679F41DFA017BC95 /* Pods-GEQRCodeView.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E9BA4F591973841B006AEF7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F581973841B006AEF7B /* GEQRCodeView.app */,
+				E9BA4F791973841B006AEF7B /* GEQRCodeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9BA4F5A1973841B006AEF7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F5B1973841B006AEF7B /* Foundation.framework */,
+				E9BA4F5D1973841B006AEF7B /* CoreGraphics.framework */,
+				E9BA4F5F1973841B006AEF7B /* UIKit.framework */,
+				E9BA4F7A1973841B006AEF7B /* XCTest.framework */,
+				3C14C3EE01AA45E7B349FFC0 /* libPods-GEQRCodeView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9BA4F611973841B006AEF7B /* GEQRCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				E900DF6319760E260037A564 /* resource */,
+				E9BA4F9019738447006AEF7B /* core */,
+				E9BA4F6A1973841B006AEF7B /* GEQRAppDelegate.h */,
+				E9BA4F6B1973841B006AEF7B /* GEQRAppDelegate.m */,
+				E9BA4F6D1973841B006AEF7B /* Main.storyboard */,
+				E9BA4F701973841B006AEF7B /* GEQRDemoViewController.h */,
+				E9BA4F711973841B006AEF7B /* GEQRDemoViewController.m */,
+				E9BA4F731973841B006AEF7B /* Images.xcassets */,
+				E9BA4F621973841B006AEF7B /* Supporting Files */,
+			);
+			path = GEQRCodeView;
+			sourceTree = "<group>";
+		};
+		E9BA4F621973841B006AEF7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F631973841B006AEF7B /* GEQRCodeView-Info.plist */,
+				E9BA4F641973841B006AEF7B /* InfoPlist.strings */,
+				E9BA4F671973841B006AEF7B /* main.m */,
+				E9BA4F691973841B006AEF7B /* GEQRCodeView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9BA4F801973841B006AEF7B /* GEQRCodeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F861973841B006AEF7B /* GEQRCodeViewTests.m */,
+				E9BA4F811973841B006AEF7B /* Supporting Files */,
+			);
+			path = GEQRCodeViewTests;
+			sourceTree = "<group>";
+		};
+		E9BA4F811973841B006AEF7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F821973841B006AEF7B /* GEQRCodeViewTests-Info.plist */,
+				E9BA4F831973841B006AEF7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9BA4F9019738447006AEF7B /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F9119738458006AEF7B /* ScanningView */,
+				E9BA4F9619738458006AEF7B /* GEQRViewController.m */,
+				E9BA4F9719738458006AEF7B /* GEQRViewController.h */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		E9BA4F9119738458006AEF7B /* ScanningView */ = {
+			isa = PBXGroup;
+			children = (
+				E9BA4F9219738458006AEF7B /* XHCaptureHelper.h */,
+				E9BA4F9319738458006AEF7B /* XHCaptureHelper.m */,
+				E9BA4F9419738458006AEF7B /* XHScanningView.h */,
+				E9BA4F9519738458006AEF7B /* XHScanningView.m */,
+			);
+			name = ScanningView;
+			path = core/ScanningView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9BA4F571973841B006AEF7B /* GEQRCodeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BA4F8A1973841B006AEF7B /* Build configuration list for PBXNativeTarget "GEQRCodeView" */;
+			buildPhases = (
+				A4C8F970191F470886ACD2E5 /* Check Pods Manifest.lock */,
+				E9BA4F541973841B006AEF7B /* Sources */,
+				E9BA4F551973841B006AEF7B /* Frameworks */,
+				E9BA4F561973841B006AEF7B /* Resources */,
+				E1DD2DC354DA4F908E97D3BB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GEQRCodeView;
+			productName = GEQRCodeView;
+			productReference = E9BA4F581973841B006AEF7B /* GEQRCodeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9BA4F781973841B006AEF7B /* GEQRCodeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BA4F8D1973841B006AEF7B /* Build configuration list for PBXNativeTarget "GEQRCodeViewTests" */;
+			buildPhases = (
+				E9BA4F751973841B006AEF7B /* Sources */,
+				E9BA4F761973841B006AEF7B /* Frameworks */,
+				E9BA4F771973841B006AEF7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9BA4F7F1973841B006AEF7B /* PBXTargetDependency */,
+			);
+			name = GEQRCodeViewTests;
+			productName = GEQRCodeViewTests;
+			productReference = E9BA4F791973841B006AEF7B /* GEQRCodeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9BA4F501973841B006AEF7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GEQR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lerosua;
+				TargetAttributes = {
+					E9BA4F781973841B006AEF7B = {
+						TestTargetID = E9BA4F571973841B006AEF7B;
+					};
+				};
+			};
+			buildConfigurationList = E9BA4F531973841B006AEF7B /* Build configuration list for PBXProject "GEQRCodeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9BA4F4F1973841B006AEF7B;
+			productRefGroup = E9BA4F591973841B006AEF7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9BA4F571973841B006AEF7B /* GEQRCodeView */,
+				E9BA4F781973841B006AEF7B /* GEQRCodeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9BA4F561973841B006AEF7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BA4F741973841B006AEF7B /* Images.xcassets in Resources */,
+				E9BA4F661973841B006AEF7B /* InfoPlist.strings in Resources */,
+				E900DF6719760E340037A564 /* btn_topbar_back_white@2x.png in Resources */,
+				E9BA4F6F1973841B006AEF7B /* Main.storyboard in Resources */,
+				E900DF6619760E340037A564 /* btn_topbar_back_hover@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BA4F771973841B006AEF7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BA4F851973841B006AEF7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4C8F970191F470886ACD2E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1DD2DC354DA4F908E97D3BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GEQRCodeView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9BA4F541973841B006AEF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BA4F9819738458006AEF7B /* XHCaptureHelper.m in Sources */,
+				E9BA4F721973841B006AEF7B /* GEQRDemoViewController.m in Sources */,
+				E9BA4F681973841B006AEF7B /* main.m in Sources */,
+				E9BA4F9A19738458006AEF7B /* GEQRViewController.m in Sources */,
+				E9BA4F9919738458006AEF7B /* XHScanningView.m in Sources */,
+				E9BA4F6C1973841B006AEF7B /* GEQRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BA4F751973841B006AEF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BA4F871973841B006AEF7B /* GEQRCodeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9BA4F7F1973841B006AEF7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9BA4F571973841B006AEF7B /* GEQRCodeView */;
+			targetProxy = E9BA4F7E1973841B006AEF7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9BA4F641973841B006AEF7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9BA4F651973841B006AEF7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9BA4F6D1973841B006AEF7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9BA4F6E1973841B006AEF7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9BA4F831973841B006AEF7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9BA4F841973841B006AEF7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9BA4F881973841B006AEF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9BA4F891973841B006AEF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9BA4F8B1973841B006AEF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6390F62679F41DFA017BC95 /* Pods-GEQRCodeView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GEQRCodeView/GEQRCodeView-Prefix.pch";
+				INFOPLIST_FILE = "GEQRCodeView/GEQRCodeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9BA4F8C1973841B006AEF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6390F62679F41DFA017BC95 /* Pods-GEQRCodeView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GEQRCodeView/GEQRCodeView-Prefix.pch";
+				INFOPLIST_FILE = "GEQRCodeView/GEQRCodeView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9BA4F8E1973841B006AEF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GEQRCodeView.app/GEQRCodeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GEQRCodeView/GEQRCodeView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GEQRCodeViewTests/GEQRCodeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9BA4F8F1973841B006AEF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GEQRCodeView.app/GEQRCodeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GEQRCodeView/GEQRCodeView-Prefix.pch";
+				INFOPLIST_FILE = "GEQRCodeViewTests/GEQRCodeViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9BA4F531973841B006AEF7B /* Build configuration list for PBXProject "GEQRCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BA4F881973841B006AEF7B /* Debug */,
+				E9BA4F891973841B006AEF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BA4F8A1973841B006AEF7B /* Build configuration list for PBXNativeTarget "GEQRCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BA4F8B1973841B006AEF7B /* Debug */,
+				E9BA4F8C1973841B006AEF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BA4F8D1973841B006AEF7B /* Build configuration list for PBXNativeTarget "GEQRCodeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BA4F8E1973841B006AEF7B /* Debug */,
+				E9BA4F8F1973841B006AEF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9BA4F501973841B006AEF7B /* Project object */;
+}
