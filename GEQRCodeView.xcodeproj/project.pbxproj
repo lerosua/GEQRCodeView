@@ -27,6 +27,7 @@
 		E9BA4F9819738458006AEF7B /* XHCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F9319738458006AEF7B /* XHCaptureHelper.m */; };
 		E9BA4F9919738458006AEF7B /* XHScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F9519738458006AEF7B /* XHScanningView.m */; };
 		E9BA4F9A19738458006AEF7B /* GEQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BA4F9619738458006AEF7B /* GEQRViewController.m */; };
+		E9F148351979223D00432C9F /* GEQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F148341979223D00432C9F /* GEQRCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		E9BA4F9519738458006AEF7B /* XHScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHScanningView.m; sourceTree = "<group>"; };
 		E9BA4F9619738458006AEF7B /* GEQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEQRViewController.m; path = core/GEQRViewController.m; sourceTree = "<group>"; };
 		E9BA4F9719738458006AEF7B /* GEQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEQRViewController.h; path = core/GEQRViewController.h; sourceTree = "<group>"; };
+		E9F148331979223D00432C9F /* GEQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GEQRCode.h; path = core/GEQRCode.h; sourceTree = "<group>"; };
+		E9F148341979223D00432C9F /* GEQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GEQRCode.m; path = core/GEQRCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,8 @@
 				E9BA4F9119738458006AEF7B /* ScanningView */,
 				E9BA4F9619738458006AEF7B /* GEQRViewController.m */,
 				E9BA4F9719738458006AEF7B /* GEQRViewController.h */,
+				E9F148331979223D00432C9F /* GEQRCode.h */,
+				E9F148341979223D00432C9F /* GEQRCode.m */,
 			);
 			name = core;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 				E9BA4F681973841B006AEF7B /* main.m in Sources */,
 				E9BA4F9A19738458006AEF7B /* GEQRViewController.m in Sources */,
 				E9BA4F9919738458006AEF7B /* XHScanningView.m in Sources */,
+				E9F148351979223D00432C9F /* GEQRCode.m in Sources */,
 				E9BA4F6C1973841B006AEF7B /* GEQRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +479,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GEQRCodeView/GEQRCodeView-Prefix.pch";
 				INFOPLIST_FILE = "GEQRCodeView/GEQRCodeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -487,6 +494,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GEQRCodeView/GEQRCodeView-Prefix.pch";
 				INFOPLIST_FILE = "GEQRCodeView/GEQRCodeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
