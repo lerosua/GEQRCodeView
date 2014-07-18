@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GEQRCodeView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "QRCode scanning ViewController for ios6/7"
 
   s.description  = <<-DESC
@@ -42,7 +42,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.0"
 
-  s.source       = { :git => "https://github.com/lerosua/GEQRCodeView.git",:tag => "0.0.2" }
+  #s.source       = { :git => "https://github.com/lerosua/GEQRCodeView.git",:tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/lerosua/GEQRCodeView.git" }
 
 
   s.source_files  = "GEQRCodeView/core", "GEQRCodeView/core/**/*.{h,m}"
