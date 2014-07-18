@@ -69,5 +69,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   #s.dependency  "ZBarSDK", :podspec => 'https://raw.githubusercontent.com/lerosua/ZBarSDK/master/ZBarSDK.podspec'
   s.dependency  'ZBarSDK', '~> 1.3.1'
+  s.dependency  'libqrencode', '~> 3.4.2'
 
 end
